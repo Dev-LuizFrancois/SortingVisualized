@@ -2,7 +2,7 @@
 
 Developed by Luiz François.
 
-This application comopares four different types of well known sorting algorithms: BubbleSort, InsertionSort, SelectionSort and QuickSort. The objective is show, step by step, what the code is doing by simulating a random set of elements, each with its own value. The user can choose the desired algorithm and see, in real time, the process of position swapping that the code does in the background. Built with JavaScript, WEBGL and CSS.
+This application compares four different types of well-known sorting algorithms: BubbleSort, InsertionSort, SelectionSort, and QuickSort. The objective is to show, step by step, what the code is doing by simulating a random set of elements, each with its own value. The user can choose the desired algorithm and see, in real-time, the process of position swapping that the code does in the background. Built with JavaScript, WEBGL, and CSS.
 
 ---
 
