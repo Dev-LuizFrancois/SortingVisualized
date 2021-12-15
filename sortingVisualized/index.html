@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap includes-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" href="styles.css">
+        <script type="module" src="./app.js"></script>
+
+
+        <title>SortingAlgos Visualized</title>
+
+
+    </head>
+    <body>
+
+        <!-- WEBGL Canvas -->
+        <canvas id="gl-canvas"></canvas>
+
+
+        <div id="watermark">
+            <a style="color:green">Project by Luiz François</a>
+        </div>
+
+        <div id="speed-controller">
+            <a style="color:green">Animation Speed: </a><input id="ani-speed" type="number" min="1" max="7" step="1" value="1" style="width: 40px;"></input>
+        </div>
+
+        <div id="controller" class="card text-white bg-dark mb-3" style="width: 600px;">
+            <div class="card-body">
+
+                <div id="stats">
+                    <span id="stat-n-boxes" href="stat-n-boxes" class="badge bg-light text-dark"></span>
+                    <span id="stat-n-iter" href="stat-n-iter" class="badge badge bg-light text-dark"></span>
+                    <span id="stat-n-steps" href="stat-n-steps" class="badge badge bg-light text-dark"></span>
+                </div>
+                        
+                <form id="functionalities" class="row g-3">
+                    <div class="col-auto">
+                        <a>Boxes Size: </a><input id="box-size" type="number" min="2" max="20" step="2" value="10" style="width: 60px;"></input>
+                    </div>
+                    <div class="col-auto">
+                        <button id="assing-values" type='button' class="btn btn-success">Random Set</button>
+                    </div>
+                    <div class="col-auto">
+                        <select href="algo-set" id="algo-select" class="form-select form-select-sm"></select>
+                    </div>
+                    <div class="col-auto">
+                        <button id="sort" href="sort" type='button' class="btn btn-success">Sort</button>
+                    </div>
+                    </form>
+
+
+                <div id="time-stats">
+                    <span id="stat-algo" href="stat-algo" class="badge bg-warning text-dark"></span>
+                    <span id="sort-time" href="sort-time" class="badge bg-warning text-dark"></span>
+                </div>
+            </div>
+
+            
+        </div>
+    </body>
+</html>

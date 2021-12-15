@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  #gl-canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+
+  #controller{
+    bottom: 5px;
+    left: 33%;
+    position:absolute;
+  }
+
+  #speed-controller{  
+    position:absolute;
+    left:45%;
+    bottom: 95%;
+    text-align:center;/* Add This*/
+  }
+
+  #watermark{  
+    position:absolute;
+    left:5%;
+    bottom: 5%;
+    font-size:small;
+    text-align:center;/* Add This*/
+  }
+
+  #stats{
+    padding-bottom:20px;
+    padding-left: 20%;
+  }
+
+  #time-stats{
+    padding-bottom:5px;
+    padding-left: 20%;
+  }
+
+  #functionalities{
+    padding-left: 5%;
+    padding-bottom:20px;
+    
+  }
+
+  #algo-select{
+    width:auto;
+  }
+
+
+
